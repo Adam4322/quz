@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input {
+
+    width: 800px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+}
+
+button {
+    width: 800px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+a {
+    text-decoration: none;
+    color: blue;
+    margin-top: 10px;
+} 
+a:hover {
+    color: darkblue;
+}
